@@ -10,8 +10,7 @@ Transport for ApiOpenStudio output to an AWS S3 bucket
 
 # Configuration
 
-* Add a remote output processor to your resource, i.e.
-
+Add a remote output processor to your resource, i.e.
 
     output:
         -
