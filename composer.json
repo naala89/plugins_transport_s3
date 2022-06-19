@@ -1,11 +1,22 @@
 {
-  "name": "apiopenstudio/plugins/transport_s3",
+  "name": "apiopenstudio/transport_s3",
   "description": "Transport S3 for ApiOpenStudio output.",
+  "keywords": [
+    "apiopenstudio",
+    "transport",
+    "aws",
+    "s3",
+    "flysystem",
+    "filesystem",
+    "storage",
+    "file",
+    "files"
+  ],
   "type": "package",
+  "license": "MIT",
   "require": {
     "league/flysystem-aws-s3-v3": "^3.0"
   },
-  "license": "MIT",
   "autoload": {
     "psr-4": {
       "ApiOpenStudio\\Plugins\\": "src/"
@@ -17,12 +28,12 @@
       "homepage": "https://gitlab.com/john89"
     }
   ],
+  "minimum-stability": "dev",
   "support": {
     "email": "contact@apiopenstudio.com",
     "issues": "https://gitlab.com/apiopenstudio/plugins/transport_s3/-/issues",
     "forum": "https://www.apiopenstudio.com/questions-answers/",
     "wiki": "https://wiki.apiopenstudio.com/",
     "source": "https://gitlab.com/apiopenstudio/plugins/transport_s3"
-  },
-  "minimum-stability": "dev"
+  }
 }
