@@ -19,7 +19,7 @@ Add a remote output processor to your resource, i.e.
             filename: example.xml
             transport: transport_s3
             parameters:
-                key:
+                key: my_aws_s3_bucket_key
                 secret: my_aws_s3_bucket_secret
                 bucket: my_bucket_name
                 version: version
@@ -32,13 +32,13 @@ Add a remote output processor to your resource, i.e.
 ### Required
 
 - key - AWS S3 key
-- secret: AWS S3 secret
-- bucket: AWS S3 bucket name
-- version: latest|version
+- secret - AWS S3 secret
+- bucket - AWS S3 bucket name
+- version - latest|version
 
 ### Optional
 
-- region: AWS S3 bucket region
+- region - AWS S3 bucket region
 
 # Further information
 

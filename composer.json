@@ -9,8 +9,7 @@
     "flysystem",
     "filesystem",
     "storage",
-    "file",
-    "files"
+    "file"
   ],
   "type": "package",
   "license": "MIT",
