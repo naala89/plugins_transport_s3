@@ -3,13 +3,14 @@
   "description": "Transport S3 for ApiOpenStudio output.",
   "keywords": [
     "apiopenstudio",
+    "api",
     "transport",
-    "aws",
-    "s3",
-    "flysystem",
     "filesystem",
     "storage",
-    "file"
+    "flysystem",
+    "file",
+    "aws",
+    "s3",
   ],
   "type": "package",
   "license": "MIT",
