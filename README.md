@@ -10,14 +10,17 @@ Transport for ApiOpenStudio output to an AWS S3 bucket
 
 # Configuration
 
-Add a remote output processor to your resource, i.e.
+Add a remote output processor to your resource.
+
+The output section example below will return the output in the response as well
+as upload the response to an S3 bucket:
 
     output:
         -
             processor: xml_remote
             id: example XML Remote output
             filename: example.xml
-            transport: transport_s3
+            transport: ApiOpenStudio\Plugins\TransportS3
             parameters:
                 key: my_aws_s3_bucket_key
                 secret: my_aws_s3_bucket_secret
@@ -26,6 +29,8 @@ Add a remote output processor to your resource, i.e.
                 region: my_bucket_region (optional)
         - 
             response
+
+**Note:** the value for the transport is the full namespace path. 
 
 ## Parameters
 
